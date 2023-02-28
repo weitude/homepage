@@ -7,7 +7,13 @@ const NavigationBar = () => {
   const links = ["Experience", "Projects", "Contact"];
 
   const NavLink = ({ link }) => (
-    <Link px={2} py={1} rounded={"md"} _hover={{ color: "orange.600" }} href={`#${link}`}>
+    <Link
+      px={2}
+      py={1}
+      rounded={"md"}
+      _hover={{ color: "orange.600" }}
+      href={`/#/${link.toLowerCase()}`}
+    >
       {link}
     </Link>
   );
@@ -18,7 +24,10 @@ const NavigationBar = () => {
     return (
       <Flex w="100%" h="100px" justifyContent="space-between" position="absolute">
         <HStack ml="36">
-          <Circle size="30" bg="tomato" color="white" />
+          <Link href={"."}>
+            <Circle size="30" bg="tomato" color="white" />
+          </Link>
+
           <Text fontSize="md" fontWeight="600">
             Chia Wei (Eric) Lin
           </Text>
@@ -27,7 +36,11 @@ const NavigationBar = () => {
           {links.map((link) => (
             <NavLink key={link} link={link} />
           ))}
-          <Link href="/#/resume" isExternal _hover={{ color: "orange.600" }}>
+          <Link
+            href="https://weitude.tech/chia_wei_lin_resume.pdf"
+            isExternal
+            _hover={{ color: "orange.600" }}
+          >
             <HStack>
               <Text fontSize="md" fontWeight="600">
                 resume

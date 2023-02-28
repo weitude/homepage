@@ -1,7 +1,12 @@
 import { Flex, Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import avatar from "@/img/avatar.jpg";
+import { useEffect } from "react";
 
-const Home = () => {
+const HomePage = () => {
+  useEffect(() => {
+    window.location.href = "/#/";
+  }, []);
+
   return (
     <Flex h="100vh" p="100px" justifyContent="center">
       <HStack w="60vw">
@@ -20,4 +25,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
