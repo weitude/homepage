@@ -1,11 +1,4 @@
-import {
-  Circle,
-  Flex,
-  HStack,
-  Link,
-  Text,
-  useMediaQuery,
-} from "@chakra-ui/react";
+import { Circle, Flex, HStack, Link, Text, useMediaQuery } from "@chakra-ui/react";
 
 import { FaDownload } from "react-icons/fa";
 
@@ -14,21 +7,14 @@ const NavigationBar = () => {
   const links = ["Experience", "Projects", "Contact"];
 
   const NavLink = ({ link }) => (
-    <Link
-      px={2}
-      py={1}
-      rounded={"md"}
-      _hover={{ color: "orange.600" }}
-      href={`#${link}`}
-    >
+    <Link px={2} py={1} rounded={"md"} _hover={{ color: "orange.600" }} href={`#${link}`}>
       {link}
     </Link>
   );
 
   if (isMobile) {
     return <div>hi</div>;
-  }
-  else {
+  } else {
     return (
       <Flex w="100%" h="100px" justifyContent="space-between" position="absolute">
         <HStack ml="36">
