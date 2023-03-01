@@ -61,7 +61,7 @@ const contactButtons = [
   {
     title: "LinkedIn",
     icon: <FaLinkedin />,
-    url: "https://github.com/weitude",
+    url: "https://www.linkedin.com/in/ericcwlin/",
     color: "blue.600",
   },
   {
