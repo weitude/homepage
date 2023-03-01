@@ -1,10 +1,10 @@
-import HomePage from "./containers/HomePage.jsx";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import NavigationBar from "@/components/NavigationBar.jsx";
-import ExperiencePage from "@/containers/ExperiencePage.jsx";
-import ProjectsPage from "@/containers/ProjectsPage.jsx";
-import ContactPage from "@/containers/ContactPage.jsx";
 import { Flex } from "@chakra-ui/react";
+import HomePage from "@/containers/HomePage";
+import NavigationBar from "@/components/NavigationBar";
+import ExperiencePage from "@/containers/ExperiencePage";
+import ProjectsPage from "@/containers/ProjectsPage";
+import ContactPage from "@/containers/ContactPage";
 
 function App() {
   return (

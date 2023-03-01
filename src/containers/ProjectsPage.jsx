@@ -1,11 +1,16 @@
-import { Flex, Heading, StackDivider, Text, VStack } from "@chakra-ui/react";
-import ExperienceCard from "@/components/ExperienceCard.jsx";
-import { Education, Experiences } from "@/data/Experiences.jsx";
+import { Flex, Heading, StackDivider, VStack } from "@chakra-ui/react";
+import { projects } from "@/data/Infos";
+import InfoSection from "@/components/InfoSection";
 
 const ProjectsPage = () => {
   return (
     <Flex w="100%" flexDir="column" px="10" pt="8">
-      <Heading mb="10">Projects</Heading>
+      <Heading mb="10vh" textAlign="center">
+        Projects
+      </Heading>
+      <VStack spacing="10" divider={<StackDivider borderColor="gray.200" />}>
+        <InfoSection title="Projects" infos={projects} />
+      </VStack>
     </Flex>
   );
 };

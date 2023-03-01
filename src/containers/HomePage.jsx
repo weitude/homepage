@@ -1,5 +1,5 @@
 import { Flex, Heading, HStack, Image, Text } from "@chakra-ui/react";
-import avatar from "@/img/avatar.jpg";
+import avatar from "@/img/avatar.webp";
 import { useEffect } from "react";
 
 const HomePage = () => {

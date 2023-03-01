@@ -1,5 +1,4 @@
 import { Circle, Flex, HStack, Link, Text, useMediaQuery } from "@chakra-ui/react";
-
 import { FaDownload } from "react-icons/fa";
 
 const NavigationBar = () => {
