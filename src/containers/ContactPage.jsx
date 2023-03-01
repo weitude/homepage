@@ -1,9 +1,9 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 const ContactPage = () => {
   return (
-    <Flex p="100px">
-      <h1>Contact</h1>
+    <Flex w="100%" flexDir="column" px="10" pt="8">
+      <Heading mb="10">Contact</Heading>
     </Flex>
   );
 };

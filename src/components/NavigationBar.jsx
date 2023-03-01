@@ -28,9 +28,7 @@ const NavigationBar = () => {
             <Circle size="30" bg="tomato" color="white" />
           </Link>
 
-          <Text fontSize="md" fontWeight="600">
-            Chia Wei (Eric) Lin
-          </Text>
+          <Text fontWeight="600">Chia Wei (Eric) Lin</Text>
         </HStack>
         <HStack mr="36" spacing={4}>
           {links.map((link) => (
@@ -42,9 +40,7 @@ const NavigationBar = () => {
             _hover={{ color: "orange.600" }}
           >
             <HStack>
-              <Text fontSize="md" fontWeight="600">
-                resume
-              </Text>
+              <Text>resume</Text>
               <FaDownload />
             </HStack>
           </Link>
