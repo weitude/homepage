@@ -1,4 +1,4 @@
-import { Flex, Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Flex, Heading, HStack, Image, Text } from "@chakra-ui/react";
 import avatar from "@/img/avatar.jpg";
 import { useEffect } from "react";
 
@@ -8,20 +8,21 @@ const HomePage = () => {
   }, []);
 
   return (
-    <Flex h="100vh" p="100px" justifyContent="center">
-      <HStack w="60vw">
-        <Image borderRadius="full" boxSize="500px" src={avatar} alt="Eric" />
-        <VStack>
-          <Heading as="h1" size="4xl" noOfLines={1}>
-            Hello
-          </Heading>
-          <Text fontSize="2xl">A Bit About Me</Text>
-          <Text>Hi 👋 I'm Eric. A proficient Taiwanese 🇹🇼 developer.</Text>
-          <Text>I am experienced in DevOps, Full Stack Development, and Cyber Security.</Text>
-          <Text>Recently, I've been working on C++, Python and JavaScript.</Text>
-        </VStack>
-      </HStack>
-    </Flex>
+    <HStack w="60vw" spacing="70px">
+      <Image borderRadius="full" boxSize="40vh" src={avatar} alt="Eric" />
+      <Flex flexDirection="column" gap="5">
+        <Heading as="h1" size="4xl" noOfLines={1} align="left">
+          Hello!
+        </Heading>
+        <Text fontSize="3xl" align="start">
+          I'm Eric.
+        </Text>
+        <Text>
+          A proficient Taiwanese 🇹🇼 developer. I am experienced in DevOps, Full Stack Development,
+          and Cyber Security. Recently, I've been working on C++, Python and JavaScript.
+        </Text>
+      </Flex>
+    </HStack>
   );
 };
 
