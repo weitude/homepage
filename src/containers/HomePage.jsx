@@ -10,13 +10,11 @@ const HomePage = () => {
   return (
     <HStack w="60vw" spacing="70px">
       <Image borderRadius="full" boxSize="40vh" src={avatar} alt="Eric" />
-      <Flex flexDirection="column" gap="5">
-        <Heading as="h1" size="4xl" noOfLines={1} align="left">
+      <Flex flexDir="column" gap="5">
+        <Heading as="h1" size="4xl" noOfLines={1}>
           Hello!
         </Heading>
-        <Text fontSize="3xl" align="start">
-          I'm Eric.
-        </Text>
+        <Text fontSize="3xl">I'm Eric.</Text>
         <Text>
           A proficient Taiwanese 🇹🇼 developer. I am experienced in DevOps, Full Stack Development,
           and Cyber Security. Recently, I've been working on C++, Python and JavaScript.

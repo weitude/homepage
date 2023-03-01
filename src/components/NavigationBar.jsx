@@ -22,7 +22,7 @@ const NavigationBar = () => {
     return <div>hi</div>;
   } else {
     return (
-      <Flex w="100%" h="100px" justifyContent="space-between" position="absolute">
+      <Flex w="100%" h="100px" justifyContent="space-between" position="fixed" bg="white">
         <HStack ml="36">
           <Link href={"."}>
             <Circle size="30" bg="tomato" color="white" />

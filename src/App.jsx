@@ -10,7 +10,7 @@ function App() {
   return (
     <HashRouter>
       <NavigationBar />
-      <Flex h="100vh" p="100px" justifyContent="center">
+      <Flex minH="100vh" p="100px" justifyContent="center">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/experience" element={<ExperiencePage />} />
