@@ -1,14 +1,16 @@
-import { Flex, Heading, StackDivider, VStack } from "@chakra-ui/react";
+import { Flex, Heading, StackDivider, useMediaQuery, VStack } from "@chakra-ui/react";
 import { projects } from "@/data/Infos";
 import InfoSection from "@/components/InfoSection";
 
 const ProjectsPage = () => {
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
+
   return (
-    <Flex w="100%" flexDir="column" px="10" pt="8">
-      <Heading mb="8vh" align="center">
+    <Flex w="100%" flexDir="column" pt={isMobile ? "4" : "8"}>
+      <Heading mb={isMobile ? "4vh" : "8vh"} align="center">
         Projects
       </Heading>
-      <VStack spacing="10" divider={<StackDivider borderColor="gray.200" />}>
+      <VStack spacing="6" divider={<StackDivider borderColor="gray.200" />}>
         <InfoSection title="Projects" infos={projects} />
       </VStack>
     </Flex>

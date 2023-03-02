@@ -1,5 +1,5 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
-import { Flex } from "@chakra-ui/react";
+import { Flex, useMediaQuery } from "@chakra-ui/react";
 import HomePage from "@/containers/HomePage";
 import NavigationBar from "@/components/NavigationBar";
 import ExperiencePage from "@/containers/ExperiencePage";
@@ -8,10 +8,12 @@ import ContactPage from "@/containers/ContactPage";
 import Footer from "@/components/Footer.jsx";
 
 function App() {
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
+
   return (
     <HashRouter>
       <NavigationBar />
-      <Flex minH="100vh" p="100px" justifyContent="center">
+      <Flex minH="100vh" px={isMobile ? "45px" : "100px"} py="100px" justifyContent="center">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/experience" element={<ExperiencePage />} />

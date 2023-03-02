@@ -1,13 +1,15 @@
-import { Flex, Text, VStack } from "@chakra-ui/react";
+import { Flex, StackDivider, Text, useMediaQuery, VStack } from "@chakra-ui/react";
 import InfoCard from "@/components/InfoCard";
 
 const InfoSection = ({ title, infos }) => {
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
+
   return (
-    <Flex>
-      <Text minW="25vw" fontSize="3xl">
+    <Flex gap="5" flexDir={isMobile ? "column" : "row"}>
+      <Text minW="20vw" fontSize="3xl">
         {title}
       </Text>
-      <VStack spacing="10" my="3">
+      <VStack spacing="8" my="2" divider={<StackDivider borderColor="gray.200" />}>
         {infos.map((info, idx) => (
           <InfoCard key={idx} info={info} />
         ))}

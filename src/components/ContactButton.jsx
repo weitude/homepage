@@ -1,12 +1,13 @@
-import { Button } from "@chakra-ui/react";
+import { Button, useMediaQuery } from "@chakra-ui/react";
 
 const ContactButton = ({ contactButton }) => {
   const { title, icon, url, color } = contactButton;
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   return (
     <Button
       size="lg"
-      w="25vw"
+      w={isMobile ? "60vw" : "25vw"}
       leftIcon={icon}
       color="white"
       bg={color}

@@ -1,14 +1,15 @@
-import { Button, Flex, Text } from "@chakra-ui/react";
+import { Button, Flex, Text, useMediaQuery } from "@chakra-ui/react";
 
 const InfoCard = ({ info }) => {
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
   const { title, subtitle, period, content, buttons } = info;
 
   return (
-    <Flex gap="2">
+    <Flex gap="2" flexDir={isMobile ? "column" : "row"}>
       <Text minW="180px" mt="1">
         {period}
       </Text>
-      <Flex flexDir="column" gap="2" minW="35vw" w="35vw">
+      <Flex flexDir="column" gap="2" minW="35vw" w={isMobile ? "100%" : "35vw"}>
         <Text as="b" fontSize="xl">
           {title}
         </Text>

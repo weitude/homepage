@@ -62,7 +62,7 @@ const projects = [
     ],
   },
   {
-    title: "weitude",
+    title: "Weitude Blog",
     subtitle: "",
     period: "May. 2022 - Present",
     content: "Using Hexo and Vite to build my blogs which recording my life.",
