@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaGlobeAmericas, FaLinkedin } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 
 const infos = [
@@ -34,6 +34,18 @@ const projects = [
     period: "Oct. 2022 - Present",
     content:
       "Building a user-friendly website for helping people who have similar emotional problems to ask.",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/relief",
+        icon: <FaGithub />,
+      },
+      {
+        title: "Website",
+        link: "https://nturelief.me/",
+        icon: <FaGlobeAmericas />,
+      },
+    ],
   },
   {
     title: "System Programming",
@@ -41,12 +53,31 @@ const projects = [
     period: "Sep. 2022 - Present",
     content:
       "Implemented system programming by socket communication, pipe / fifo, signal handling, and multiprocess / multithread skills with C",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/NTU-SP",
+        icon: <FaGithub />,
+      },
+    ],
   },
   {
     title: "weitude",
     subtitle: "",
     period: "May. 2022 - Present",
     content: "Using Hexo and Vite to build my blogs which recording my life.",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/weitude.github.io",
+        icon: <FaGithub />,
+      },
+      {
+        title: "Website",
+        link: "https://weitude.github.io/",
+        icon: <FaGlobeAmericas />,
+      },
+    ],
   },
 ];
 
