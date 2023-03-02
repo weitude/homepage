@@ -1,6 +1,7 @@
 import { Flex, Heading, StackDivider, useMediaQuery, VStack } from "@chakra-ui/react";
-import { education, infos } from "@/data/Infos.jsx";
 import InfoSection from "@/components/InfoSection";
+import education from "@/data/education";
+import infos from "@/data/infos";
 
 const ExperiencePage = () => {
   const [isMobile] = useMediaQuery("(max-width: 768px)");

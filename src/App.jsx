@@ -1,11 +1,11 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import { Flex, useMediaQuery } from "@chakra-ui/react";
 import HomePage from "@/containers/HomePage";
-import NavigationBar from "@/components/NavigationBar";
+import NavigationBar from "@/containers/NavigationBar";
 import ExperiencePage from "@/containers/ExperiencePage";
 import ProjectsPage from "@/containers/ProjectsPage";
 import ContactPage from "@/containers/ContactPage";
-import Footer from "@/components/Footer.jsx";
+import Footer from "@/components/Footer";
 
 function App() {
   const [isMobile] = useMediaQuery("(max-width: 768px)");

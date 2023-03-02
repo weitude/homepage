@@ -1,0 +1,57 @@
+import { FaGithub, FaGlobeAmericas } from "react-icons/fa";
+
+const projects = [
+  {
+    title: "NTU Relief",
+    subtitle: "",
+    period: "Oct. 2022 - Present",
+    content:
+      "Building a user-friendly website for helping people who have similar emotional problems to ask.",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/relief",
+        icon: <FaGithub />,
+      },
+      {
+        title: "Website",
+        link: "https://nturelief.me/",
+        icon: <FaGlobeAmericas />,
+      },
+    ],
+  },
+  {
+    title: "System Programming",
+    subtitle: "",
+    period: "Sep. 2022 - Present",
+    content:
+      "Implemented system programming by socket communication, pipe / fifo, signal handling, and multiprocess / multithread skills with C",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/NTU-SP",
+        icon: <FaGithub />,
+      },
+    ],
+  },
+  {
+    title: "Weitude Blog",
+    subtitle: "",
+    period: "May. 2022 - Present",
+    content: "Using Hexo and Vite to build my blogs which recording my life.",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/weitude.github.io",
+        icon: <FaGithub />,
+      },
+      {
+        title: "Website",
+        link: "https://weitude.github.io/",
+        icon: <FaGlobeAmericas />,
+      },
+    ],
+  },
+];
+
+export default projects;
