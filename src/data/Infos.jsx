@@ -1,7 +1,6 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
-import { BsInstagram } from "react-icons/bs";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
+
 const infos = [
   {
     title: "Backend Engineer Intern",
@@ -52,6 +51,12 @@ const projects = [
 ];
 
 const contactButtons = [
+  {
+    title: "Email",
+    icon: <FaEnvelope />,
+    url: "mailto:eric.c.w.lin@gmail.com",
+    color: "teal.400",
+  },
   {
     title: "Github",
     icon: <FaGithub />,

@@ -5,6 +5,7 @@ import NavigationBar from "@/components/NavigationBar";
 import ExperiencePage from "@/containers/ExperiencePage";
 import ProjectsPage from "@/containers/ProjectsPage";
 import ContactPage from "@/containers/ContactPage";
+import Footer from "@/components/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Flex>
+      <Footer />
     </HashRouter>
   );
 }

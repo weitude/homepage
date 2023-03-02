@@ -5,10 +5,10 @@ import ContactButton from "@/components/ContactButton.jsx";
 const ContactPage = () => {
   return (
     <Flex w="100%" flexDir="column" px="10" pt="8">
-      <Heading mb="10vh" textAlign="center">
+      <Heading mb="10vh" align="center">
         Contact
       </Heading>
-      <VStack spacing={10}>
+      <VStack spacing={7}>
         {contactButtons.map((contactButton, idx) => (
           <ContactButton key={idx} contactButton={contactButton} />
         ))}
