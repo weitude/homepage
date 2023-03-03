@@ -27,6 +27,7 @@ const InfoCard = ({ info }) => {
               color="white"
               bg="gray.500"
               _hover={{ bg: "gray.600" }}
+              zIndex="-1"
               onClick={() => window.open(button.link, "_blank")}
             >
               {button.title}
