@@ -7,7 +7,7 @@ const ContactButton = ({ contact }) => {
   return (
     <Button
       size="lg"
-      w={isMobile ? "60vw" : "25vw"}
+      w={isMobile ? "250px" : "330px"}
       leftIcon={icon}
       color="white"
       bg={color}
