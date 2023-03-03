@@ -13,6 +13,7 @@ const NavigationBar = () => {
       position="fixed"
       justifyContent="space-around"
       alignItems="center"
+      zIndex="1014"
     >
       <HStack spacing="3">
         <Link href={"."}>

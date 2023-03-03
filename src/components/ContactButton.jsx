@@ -13,7 +13,6 @@ const ContactButton = ({ contact }) => {
       bg={color}
       _hover={{ bg: "gray.200", color: "gray.600" }}
       onClick={() => window.open(url, "_blank")}
-      zIndex="-1"
     >
       {title}
     </Button>
