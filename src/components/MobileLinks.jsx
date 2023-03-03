@@ -1,7 +1,16 @@
-import { IconButton, Link, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
+import {
+  HStack,
+  IconButton,
+  Link,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  Text,
+} from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import links from "@/data/links";
-import Resume from "@/components/Resume";
+import { FiLink } from "react-icons/fi";
 
 const MobileLinks = () => {
   return (
@@ -19,9 +28,18 @@ const MobileLinks = () => {
                 <MenuItem _focus={{ boxShadow: "none" }}>{link}</MenuItem>
               </Link>
             ))}
-            <MenuItem>
-              <Resume />
-            </MenuItem>
+            <Link
+              href="https://weitude.tech/chia_wei_lin_resume.pdf"
+              _hover={{ color: "blue.600" }}
+              isExternal
+            >
+              <MenuItem _focus={{ boxShadow: "none" }}>
+                <HStack>
+                  <Text>Resume</Text>
+                  <FiLink />
+                </HStack>
+              </MenuItem>
+            </Link>
           </MenuList>
         </>
       )}

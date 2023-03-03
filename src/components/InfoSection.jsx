@@ -9,7 +9,12 @@ const InfoSection = ({ title, infos }) => {
       <Text minW="20vw" fontSize="3xl">
         {title}
       </Text>
-      <VStack spacing="8" my="2" divider={<StackDivider borderColor="gray.200" />}>
+      <VStack
+        spacing="8"
+        my="2"
+        divider={<StackDivider borderColor="gray.200" />}
+        alignItems="start"
+      >
         {infos.map((info, idx) => (
           <InfoCard key={idx} info={info} />
         ))}

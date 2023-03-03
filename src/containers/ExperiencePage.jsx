@@ -11,7 +11,11 @@ const ExperiencePage = () => {
       <Heading mb={isMobile ? "4vh" : "8vh"} align="center">
         Experience
       </Heading>
-      <VStack spacing="6" divider={<StackDivider borderColor="gray.200" />}>
+      <VStack
+        divider={<StackDivider borderColor="gray.200" />}
+        spacing="6"
+        alignItems={isMobile ? "start" : "center"}
+      >
         <InfoSection title="Education" infos={education} />
         <InfoSection title="Experience" infos={infos} />
       </VStack>

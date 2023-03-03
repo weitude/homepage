@@ -1,6 +1,6 @@
-import { HStack, Link } from "@chakra-ui/react";
+import { HStack, Link, Text } from "@chakra-ui/react";
 import links from "@/data/links";
-import Resume from "@/components/Resume";
+import { FiLink } from "react-icons/fi";
 
 const DesktopLinks = () => {
   return (
@@ -10,7 +10,16 @@ const DesktopLinks = () => {
           {link}
         </Link>
       ))}
-      <Resume />
+      <Link
+        href="https://weitude.tech/chia_wei_lin_resume.pdf"
+        _hover={{ color: "blue.600" }}
+        isExternal
+      >
+        <HStack>
+          <Text>Resume</Text>
+          <FiLink />
+        </HStack>
+      </Link>
     </HStack>
   );
 };
