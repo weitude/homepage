@@ -4,7 +4,7 @@ const projects = [
   {
     title: "NTU Relief",
     subtitle: "",
-    period: "Oct. 2022 - Present",
+    period: "Oct 2022 - Present",
     content:
       "Building a user-friendly website for helping people who have similar emotional problems to ask.",
     buttons: [
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "System Programming",
     subtitle: "",
-    period: "Sep. 2022 - Present",
+    period: "Sep 2022 - Jan 2023",
     content:
       "Implemented system programming by socket communication, pipe / fifo, signal handling, and multiprocess / multithread skills with C",
     buttons: [
@@ -37,7 +37,7 @@ const projects = [
   {
     title: "Weitude Blog",
     subtitle: "",
-    period: "May. 2022 - Present",
+    period: "May 2022 - Present",
     content: "Using Hexo and Vite to build my blogs which recording my life.",
     buttons: [
       {
@@ -49,6 +49,19 @@ const projects = [
         title: "Website",
         link: "https://weitude.github.io/",
         icon: <FaGlobeAmericas />,
+      },
+    ],
+  },
+  {
+    title: "Slime Tower",
+    subtitle: "",
+    period: "Oct 2021 - Jan 2022",
+    content: "Use Jack language to build a game called Slime Tower.",
+    buttons: [
+      {
+        title: "Repository",
+        link: "https://github.com/weitude/SlimeTower",
+        icon: <FaGithub />,
       },
     ],
   },
