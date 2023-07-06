@@ -25,7 +25,7 @@ const projects = [
     subtitle: "",
     period: "Sep 2022 - Jan 2023",
     content:
-      "Implemented system programming by socket communication, pipe / fifo, signal handling, and multiprocess / multithread skills with C",
+      "Implemented system programming by socket communication, pipe / fifo, signal handling, and multiprocess / multithread skills with C.",
     buttons: [
       {
         title: "Repository",
