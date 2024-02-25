@@ -2,4 +2,4 @@
 
 Welcome to my homepage!
 
-https://weitude.tech
+https://weitude.com

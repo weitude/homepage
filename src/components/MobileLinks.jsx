@@ -29,7 +29,7 @@ const MobileLinks = () => {
               </Link>
             ))}
             <Link
-              href="https://weitude.tech/chia_wei_lin_resume.pdf"
+              href="https://weitude.com/chia_wei_lin_resume.pdf"
               _hover={{ color: "blue.600" }}
               isExternal
             >
