@@ -4,7 +4,7 @@ const projects = [
   {
     title: "NTU Relief",
     subtitle: "",
-    period: "Oct 2022 - Present",
+    period: "Oct 2022 - Feb 2023",
     content:
       "Building a user-friendly website for helping people who have similar emotional problems to ask.",
     buttons: [
@@ -12,11 +12,6 @@ const projects = [
         title: "Repository",
         link: "https://github.com/weitude/relief",
         icon: <FaGithub />,
-      },
-      {
-        title: "Website",
-        link: "https://nturelief.me/",
-        icon: <FaGlobeAmericas />,
       },
     ],
   },
