@@ -10,7 +10,7 @@ const Introduction = () => {
       <Flex flexDir="column" gap="2">
         <Text fontSize="lg">A proficient Taiwanese 🇹🇼 developer.</Text>
         <Text fontSize="lg">I am experienced in Full-Stack, DevOps, and Quant.</Text>
-        <Text fontSize="lg">Recently, I've been working on C++, Python and TypeScript.</Text>
+        <Text fontSize="lg">Recently, I've been working on Rust, Python and TypeScript.</Text>
       </Flex>
     </>
   );
