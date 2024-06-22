@@ -16,7 +16,7 @@ const NavigationBar = () => {
       zIndex="1014"
     >
       <HStack spacing="3">
-        <Link href="/#/">
+        <Link href="/#/" mb="2px">
           <Circle size="30" bg="#7CC1F1" />
         </Link>
         <Link href="/#/" fontWeight="600">
