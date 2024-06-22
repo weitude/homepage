@@ -20,7 +20,7 @@ const HomePage = () => {
   }
 
   return (
-    <Flex minH="400px" gap="40px" justifyContent="center" alignItems="center">
+    <Flex minH="400px" gap="60px" justifyContent="center" alignItems="center">
       <Image borderRadius="full" w="22vw" maxW="300px" src={avatar} alt="Eric" />
       <Flex flexDir="column" gap="5">
         <Introduction />
