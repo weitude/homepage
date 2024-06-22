@@ -5,11 +5,12 @@ const InfoSection = ({ title, infos }) => {
   const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   return (
-    <Flex gap="5" flexDir={isMobile ? "column" : "row"}>
-      <Text minW="20vw" fontSize="3xl">
+    <Flex gap="5" flexDir={isMobile ? "column" : "row"} w="100%" px="5%">
+      <Text minW="190px" fontSize="3xl">
         {title}
       </Text>
       <VStack
+        w="100%"
         spacing="8"
         my="2"
         divider={<StackDivider borderColor="gray.200" />}
