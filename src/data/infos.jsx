@@ -52,7 +52,7 @@ const infos = [
   {
     title: "NTU CSIE, System Administration Team",
     subtitle: "Team Leader, Web Services Division",
-    period: "Sep 2022 -- May 2023",
+    period: "Sep 2022 - May 2023",
     content: [
       "Migrated virsh to Proxmox VE, enabling High Availability and achieving zero downtime since implementation",
       "Maintained departmental infrastructure, including the homepage, reverse proxy, and other critical web services.",
