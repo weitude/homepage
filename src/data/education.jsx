@@ -1,9 +1,14 @@
 const education = [
   {
     title: "National Taiwan University",
-    subtitle: "B.S.E in Computer Science & Finance",
+    subtitle: "Double major in Computer Science & Finance",
     period: "Sep 2021 - Present",
-    content: "GPA: 4.14/4.3 ・ Dean's List Award ・ Taipei, Taiwan",
+    content: [
+      "Dean’s List Award: 1st Place in 2021 Fall (GPA: 4.3/4.3)",
+      "Undergraduate Research Assistant at Theory of Computation & Computational Finance Lab",
+      "NTU CSIE 45th Student Association",
+      "Media Group Leader of NTU Pop Dance Club 34th",
+    ],
   },
 ];
 

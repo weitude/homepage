@@ -9,7 +9,7 @@ const Introduction = () => {
       <Text fontSize="3xl">I'm Eric.</Text>
       <Flex flexDir="column" gap="2">
         <Text fontSize="lg">A proficient Taiwanese 🇹🇼 developer.</Text>
-        <Text fontSize="lg">I am experienced in Full-Stack, DevOps, and Quant.</Text>
+        <Text fontSize="lg">I am experienced in Quant, Full-Stack, and DevOps.</Text>
         <Text fontSize="lg">Recently, I've been working on Rust, Python and TypeScript.</Text>
       </Flex>
     </>
