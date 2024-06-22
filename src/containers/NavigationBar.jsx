@@ -16,10 +16,12 @@ const NavigationBar = () => {
       zIndex="1014"
     >
       <HStack spacing="3">
-        <Link href={"/#/"} aria-label={"Home"}>
+        <Link href="/#/">
           <Circle size="30" bg="#7CC1F1" />
         </Link>
-        <Text fontWeight="600">Chia Wei (Eric) Lin</Text>
+        <Link href="/#/" fontWeight="600">
+          Chia Wei (Eric) Lin
+        </Link>
       </HStack>
       {isMobile ? <MobileLinks /> : <DesktopLinks />}
     </Flex>
