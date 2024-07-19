@@ -23,7 +23,7 @@ const projects = [
     subtitle: "",
     period: "Sep 2022 - Jan 2023",
     content: [
-      "Implemented system programming by socket communication, pipes, FIFO, signal handling, and multi-process / multi-thread skills with C.",
+      "Implemented system programming by socket communication, pipes, FIFO, signal handling, and multi-process / multi-thread skills with C",
     ],
     buttons: [
       {
@@ -37,7 +37,7 @@ const projects = [
     title: "Weitude Blog",
     subtitle: "",
     period: "May 2022 - Present",
-    content: ["Using Hexo and Vite to build my blogs which recording my life."],
+    content: ["Using Hexo and Vite to build my blogs which recording my life"],
     buttons: [
       {
         title: "Repository",
