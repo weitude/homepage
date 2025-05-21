@@ -13,7 +13,7 @@ const projects = [
     buttons: [
       {
         title: "App Store",
-        link: "https://apps.apple.com/tw/app/%E8%83%8C%E6%97%A5%E6%96%87%E7%A5%9E%E5%99%A8-%E6%97%A5%E6%AA%A2%E5%BF%85%E5%82%99%E5%96%AE%E5%AD%97%E6%95%91%E6%98%9F/id1550577799?l=en-GB",
+        link: "https://apps.apple.com/tw/app/%E6%BB%BF%E9%BB%9E%E6%97%A5%E8%AA%9E-ai-%E5%96%AE%E5%AD%97%E5%8D%A1/id6737537025",
         icon: <FaAppStore />,
       },
     ],
